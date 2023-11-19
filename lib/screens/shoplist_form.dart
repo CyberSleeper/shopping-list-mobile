@@ -130,7 +130,6 @@ class _ShopFormPageState extends State<ShopFormPage> {
                           'name': _name,
                           'price': _price.toString(),
                           'description': _description,
-                          // TODO: Sesuaikan field data sesuai dengan aplikasimu
                         }));
                         if (response['status'] == 'success') {
                           ScaffoldMessenger.of(context)
